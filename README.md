@@ -15,7 +15,7 @@ If you have
 any questions about Guard or want to share some information with the Guard community, please go to one of
 the following places:
 
-* [Guard Wiki](https://github.com/guard/guard/wiki)
+* [Guard Wiki](https://github.com/Unity-Legal-Affairs/guard/wiki)
 * [Google group](http://groups.google.com/group/guard-dev).
 * [StackOverflow](http://stackoverflow.com/questions/tagged/guard).
 * IRC channel `#guard` (irc.freenode.net) for chatting.
@@ -24,10 +24,10 @@ Before you file an issue, make sure you have read the _[known issues](#issues)_ 
 
 ## Features
 
-* File system changes handled by our awesome [Listen](https://github.com/guard/listen) gem.
+* File system changes handled by our awesome [Listen](https://github.com/Unity-Legal-Affairs/listen) gem.
 * Support for visual system notifications.
 * Huge eco-system with [more than 300](https://rubygems.org/search?query=guard-) Guard plugins.
-* Tested against the latest Ruby 2.4.x, 2.5.x, 2.6.x, JRuby & Rubinius. See [`.travis-ci.yml`](https://github.com/guard/guard/blob/master/.travis.yml) for the exact versions.
+* Tested against the latest Ruby 2.4.x, 2.5.x, 2.6.x, JRuby & Rubinius. See [`.travis-ci.yml`](https://github.com/Unity-Legal-Affairs/guard/blob/main/.travis.yml) for the exact versions.
 
 ## Screencast
 
@@ -68,7 +68,7 @@ $ bundle exec guard
 
 If you are on Mac OS X and have problems with either Guard not reacting to file
 changes or Pry behaving strange, then you should [add proper Readline support
-to Ruby on macOS](https://github.com/guard/guard/wiki/Add-Readline-support-to-Ruby-on-Mac-OS-X).
+to Ruby on macOS](https://github.com/Unity-Legal-Affairs/guard/wiki/Add-Readline-support-to-Ruby-on-Mac-OS-X).
 
 ## Avoiding gem/dependency problems
 
@@ -90,14 +90,10 @@ If you're getting sick of typing `bundle exec` all the time, try one of the foll
 
 (To upgrade RubyGems from RVM, use the `rvm rubygems` command).
 
-*NOTE: this Rubygems feature is still under development still lacks many features of bundler*
-
-* Or, for RubyGems < 2.2.0 check out the [Rubygems Bundler](https://github.com/rvm/rubygems-bundler).
-
 ## Add Guard plugins
 
 Guard is now ready to use and you should add some Guard plugins for your specific use. Start exploring the many Guard
-plugins available by browsing the [Guard organization](https://github.com/guard) on GitHub or by searching for `guard-`
+plugins available by browsing the [Guard organization](https://github.com/Unity-Legal-Affairs) on GitHub or by searching for `guard-`
 on [RubyGems](https://rubygems.org/search?utf8=%E2%9C%93&query=guard-).
 
 When you have found a Guard plugin of your interest, add it to your `Gemfile`:
@@ -115,7 +111,7 @@ to suit your needs.
 
 Guard is run from the command line. Please open your terminal and go to your project work directory.
 
-Look here for a full [list of Guard commands](https://github.com/guard/guard/wiki/List-of-Guard-Commands)
+Look here for a full [list of Guard commands](https://github.com/Unity-Legal-Affairs/guard/wiki/List-of-Guard-Commands)
 
 ### Start
 
@@ -128,24 +124,24 @@ $ bundle exec guard
 Guard will look for a `Guardfile` or `guardfile.rb` in your current directory. If it does not find one, it will look
 in your `$HOME` directory for a `.Guardfile`.
 
-Please look here to see all the [command line options for Guard](https://github.com/guard/guard/wiki/Command-line-options-for-Guard)
+Please look here to see all the [command line options for Guard](https://github.com/Unity-Legal-Affairs/guard/wiki/Command-line-options-for-Guard)
 
 ## Interactions
 
-Please read how to [interact with Guard](https://github.com/guard/guard/wiki/Interacting-with-Guard) on the console and which [signals](https://github.com/guard/guard/wiki/Interacting-with-Guard#guard-signals) Guard accepts
+Please read how to [interact with Guard](https://github.com/Unity-Legal-Affairs/guard/wiki/Interacting-with-Guard) on the console and which [signals](https://github.com/Unity-Legal-Affairs/guard/wiki/Interacting-with-Guard#guard-signals) Guard accepts
 
 
 ## Guardfile DSL
 
-For details on extending your `Guardfile` look at [Guardfile examples](https://github.com/guard/guard/wiki/Guardfile-examples) or look at a list of commands [Guardfile-DSL / Configuring-Guard](https://github.com/guard/guard/wiki/Guardfile-DSL---Configuring-Guard)
+For details on extending your `Guardfile` look at [Guardfile examples](https://github.com/Unity-Legal-Affairs/guard/wiki/Guardfile-examples) or look at a list of commands [Guardfile-DSL / Configuring-Guard](https://github.com/Unity-Legal-Affairs/guard/wiki/Guardfile-DSL---Configuring-Guard)
 
 ## Issues
 
-Before reporting a problem, please read how to [File an issue](https://github.com/guard/guard/blob/master/CONTRIBUTING.md#file-an-issue).
+Before reporting a problem, please read how to [File an issue](https://github.com/Unity-Legal-Affairs/guard/blob/main/CONTRIBUTING.md#file-an-issue).
 
 ## Development / Contributing
 
-See the [Contributing Guide](https://github.com/guard/guard/blob/master/CONTRIBUTING.md#development).
+See the [Contributing Guide](https://github.com/Unity-Legal-Affairs/guard/blob/main/CONTRIBUTING.md#development).
 
 ## Releasing
 
@@ -161,18 +157,12 @@ See the [Contributing Guide](https://github.com/guard/guard/blob/master/CONTRIBU
 1. Commit the version in a single commit, the message should be "Bump VERSION to X.Y.Z".
 1. Push and open a pull request.
 1. Once CI is green, merge the pull request.
-1. Pull the changes locally and run `bundle exec rake release:full`; this will tag, push to GitHub, publish to rubygems.org, and publish the [release notes](https://github.com/guard/guard/releases) .
-
-### Author
-
-[Thibaud Guillaume-Gentil](https://github.com/thibaudgg) ([@thibaudgg](https://twitter.com/thibaudgg))
+1. Pull the changes locally and run `bundle exec rake release:full`; this will tag, push to GitHub, publish to rubygems.org, and publish the [release notes](https://github.com/Unity-Legal-Affairs/guard/releases) .
 
 ### Core Team
 
-* R.I.P. :broken_heart: [Michael Kessler](https://github.com/netzpirat).
-* [Rémy Coutable](https://github.com/rymai).
-* [Thibaud Guillaume-Gentil](https://github.com/thibaudgg) ([@thibaudgg](https://twitter.com/thibaudgg), [thibaud.gg](https://thibaud.gg/)).
+* R.I.P. :broken_heart: [Unity-Legal-Affairs](https://github.com/Unity-Legal-Affairs).
 
 ### Contributors
 
-[https://github.com/guard/guard/graphs/contributors](https://github.com/guard/guard/graphs/contributors)
+[https://github.com/guard/guard/graphs/contributors](https://github.com/Unity-Legal-Affairs/guard/graphs/contributors)
