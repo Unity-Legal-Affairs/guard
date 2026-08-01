@@ -4,9 +4,9 @@ Contribute to Guard
 File an issue
 -------------
 
-Please check guard's [GitHub issue tracker](https://github.com/guard/guard/issues) for known issues.  Additionally you should check [listen's issue tracker](https://github.com/guard/listen/issues) for issues which affect guard's behaviour; for example, there is currently a nasty [bug preventing listen from watching files inside symlinked directories](https://github.com/guard/listen/issues/25).
+Please check guard's [GitHub issue tracker](https://github.com/Unity-Legal-Affairs/guard/issues) for known issues.  Additionally you should check [listen's issue tracker](https://github.com/Unity-Legal-Affairs/listen/issues) for issues which affect guard's behaviour; for example, there is currently a nasty [bug preventing listen from watching files inside symlinked directories](https://github.com/Unity-Legal-Affairs/listen/issues).
 
-You can report bugs and feature requests to [GitHub Issues](https://github.com/guard/guard/issues).
+You can report bugs and feature requests to [GitHub Issues](https://github.com/Unity-Legal-Affairs/guard/issues).
 
 **Please don't ask question in the issue tracker**, instead ask them at one of our other places:
 
@@ -28,7 +28,7 @@ When you file a bug, please try to follow these simple rules if applicable:
   * Shared project folder with services like Dropbox, NFS, etc.
 * Make sure that the issue is reproducible with your description.
 * If Guard is not responding to file changes and/or is not firing rules correctly:
-  * see [listen](http://github.com/guard/listen) for more info on troubleshooting.
+  * see [listen](http://github.com/Unity-Legal-Affairs/listen) for more info on troubleshooting.
   * run guard with the `LISTEN_GEM_DEBUGGING` environment variable set to 1 (info) or 2 (debug) which shows what's happening under the hood and how fast)
 * If you are using plugins, check out their respective README files (disabling spring, adding bundle to plugin's command, special debug options, etc.)
 
@@ -38,10 +38,10 @@ Development
 -----------
 
 * Documentation hosted at [RubyDoc](http://rubydoc.info/github/guard/guard/master/frames).
-* Source hosted at [GitHub](https://github.com/guard/guard).
-* The [wiki](https://github.com/guard/guard/wiki/) has useful developer documentation, including:
-  * [how to create a guard plugin](https://github.com/guard/guard/wiki/Create-a-guard), and
-  * [understanding Guard](https://github.com/guard/guard/wiki/Understanding-Guard),
+* Source hosted at [GitHub](https://github.com/Unity-Legal-Affairs/guard).
+* The [wiki](https://github.com/Unity-Legal-Affairs/guard/wiki/) has useful developer documentation, including:
+  * [how to create a guard plugin](https://github.com/Unity-Legal-Affairs/guard/wiki/Create-a-guard), and
+  * [understanding Guard](https://github.com/Unity-Legal-Affairs/guard/wiki/Understanding-Guard),
     which contains useful debugging tips.
 
 Pull requests are very welcome! Please try to follow these simple rules if applicable:
@@ -50,7 +50,7 @@ Pull requests are very welcome! Please try to follow these simple rules if appli
 * TIP: run `rubocop` locally before pushing (so your PR won't trigger HoundCI comments)
 * Make sure your patches are well tested. All specs must pass when run on [Travis CI](https://travis-ci.org/guard/guard).
 * Update the [Yard](http://yardoc.org/) documentation.
-* Update the [README](https://github.com/guard/guard/blob/master/README.md).
+* Update the [README](https://github.com/Unity-Legal-Affairs/guard/blob/main/README.md).
 * Please **do not change** the version number.
 
 The title of your PR will automatically be included in the release notes for the next version of the gem. A maintainer can add one of the following GitHub labels to the PR to automatically categorize it when the release notes are generated:
